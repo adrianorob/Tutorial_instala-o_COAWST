@@ -205,6 +205,8 @@ Esta etapa é idêntica a do manual do COAWST, porém o Dr. Warner indica que co
 
 Este comando irá gerar o arquivo Makefile.conf, configure-o da seguinte forma:
 
+```
+
 # COMPILER, LIBRARY, AND MACHINE MAKE VARIABLES
 
 # FORTRAN COMPILER VARIABLES #
@@ -302,7 +304,7 @@ includedir      = /home/luis/COAWST/Lib/MCT/include
 # OTHER COMMANDS #
 AR		= ar cq
 RM		= rm -f
-
+```
 
 Feito isto, execute o comando:
 
