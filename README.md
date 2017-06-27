@@ -317,6 +317,7 @@ make install
 
 Antes de começarmos a configurar o arquivo bash do COAWST, vamos configurar o compilador. Entre na pasta COAWST/Compilers e procure o arquivo Linux-gfortran.mk. Abra-o e configure da seguinte maneira:
 
+```
 # svn $Id: Linux-gfortran.mk 655 2008-07-25 18:57:05Z arango $
 #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 # Copyright (c) 2002-2010 The ROMS/TOMS Group                           :::
@@ -519,6 +520,7 @@ $(SCRATCH_DIR)/agioncmd.o:     FFLAGS += -ffree-form -ffree-line-length-none
 $(SCRATCH_DIR)/swn_outnc.o:    FFLAGS += -ffree-form -ffree-line-length-none
 
 endif
+```
 Dica: Lembre-se que esta é a configuração para o meu notebook e as pastas estão setadas para os meus destinos virtuais, não tente dar uma de malandro e copiar as minhas configurações que o seu computador não vai achar as origens. 
 
 5 – CONFIGURANDO O WRF
