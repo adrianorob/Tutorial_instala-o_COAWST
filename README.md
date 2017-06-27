@@ -553,7 +553,7 @@ DM_CC	=	mpicc -DMPI2_SUPPORT
 6 – CONFIGURANDO O BASH
 
 Passamos a etapa de configuração do arquivo coaswt.bash. Segue abaixo a copia do meu arquivo para que vocês possam configurar de acordo com as suas pastas.
-
+```
 #	
 #	#!/bin/bash
 #	#
@@ -1103,7 +1103,7 @@ if [ $parallel -eq 1 ]; then make $NCPUS
 
 else make
 fi
-
+```
 
 7 – COMPILAR O COAWST.BASH
 
