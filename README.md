@@ -181,7 +181,9 @@ Gostaria de acrescentar que possuo algumas manias e atos que podem ser simplific
 
 Está etapa consiste em configurar o arquivo (.bashrc). Para os iniciantes em Linux o arquivo .bashrc é responsável por mostrar ao sistema raiz onde as pastas com os arquivos e bibliotecas serão chamados. O arquivo .bashrc encontra-se na pasta pessoal do usuário do Linux (Ex: /home/luis/.bashrc). Abrindo o arquivo no editor de texto do Linux (comando gedit .bashrc na sua pasta pessoal) deve abrir o arquivo de interesse. Desça ao fim do documento de texto e acrescente as seguintes linhas de comando:
 
-export MCT_INCDIR=/home/luis/COAWST/Lib/MCT/include export MCT_LIBDIR=/home/luis/COAWST/Lib/MCT/lib export NETCDF_INCDIR=/usr/local/include
+COAWST_PATH = coawst current directorie
+
+export MCT_INCDIR=${COAWST_PATH}/Lib/MCT/include export MCT_LIBDIR=${COAWST_PATH}/Lib/MCT/lib export NETCDF_INCDIR=/usr/local/include
 
 export NETCDF_LIBDIR=/usr/local/lib export PATH=$PATH:/usr/local/bin export NETCDF=/usr/local
 
